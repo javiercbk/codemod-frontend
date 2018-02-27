@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  background-color: #1e1e1e;
+  /* color: white; */
+  color: #adadad;
+}
+
+.app-clickable {
+  cursor: pointer;
+}
+
+.tree-clickable:hover {
+  font-weight: bold;
+}
